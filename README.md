@@ -26,13 +26,6 @@ This project showcases elegant furniture collections with a clean layout, smooth
 
 ---
 
-## 📷 Preview
-
-> Add a screenshot of the homepage here (optional)  
-> Example:  
-> ![Screenshot](assets/images/preview.png)
-
----
 
 ## 📬 Contact
 
