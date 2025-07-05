@@ -41,4 +41,4 @@ This project is open-source and available under the [MIT License](LICENSE) — f
 ---
 
 > Designed & developed by **Team Project**  
-> 👩‍💻 Aliaa  | 👨‍💻 Gehad | 👩‍💻 Ghada | 👨‍💻 Fatma | 👨‍💻 Shimaa | 👨‍💻 Shahd
+> 👩‍💻 **Aliaa** | 👩‍💻 **Gehad** | 👩‍💻 **Ghada** | 👩‍💻 **Fatma** | 👩‍💻 **Shimaa** | 👩‍💻 **Shahd**
