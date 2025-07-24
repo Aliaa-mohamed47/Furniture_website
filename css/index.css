@@ -1,0 +1,321 @@
+*
+{
+    position: 0px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+header
+{
+    position: absolute;
+    display: flex;
+}
+header .logo 
+{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 120px;
+    font-weight: bold;
+}
+.logo a
+{
+    color: white;
+}
+nav
+{
+    margin-left: 700px;
+    margin-top: 25px;
+}
+nav ul
+{
+    display: flex;
+}
+nav li a
+{
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-shadow: 1.5px 1.5px 0px gray ;
+}
+.image
+{
+    display: flex;
+}
+.speech
+{
+    margin-top: 130px;
+    position: absolute;
+}
+.image h1
+{
+    font-size: 70px;
+    text-transform: capitalize;
+    margin-top: 150px;
+    margin-left: 400px;
+    color: white;
+}
+.here
+{
+    display: flex;
+    margin-left: 630px;
+}
+.here h2
+{
+    font-size: 70px;
+    text-transform: capitalize;
+    color: rgb(196, 161, 90);
+    letter-spacing: 20px;
+}
+.here .a
+{
+    animation: movea 3s ease-in-out; 
+    animation-iteration-count: infinite;
+}
+@keyframes movea {
+    from, to { transform: translateY(15px) }
+    50% { transform: translateY(0px) }
+}
+.here .b
+{
+    animation: moveb 3s ease-in-out; 
+    animation-iteration-count: infinite;
+}
+@keyframes moveb {
+    from, to { transform: translateY(0px) }
+    50% { transform: translateY(15px) }
+}
+.here .c
+{
+    animation: move 3s ease-in-out; 
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    from, to { transform: translateY(15px) }
+    50% { transform: translateY(0px) }
+}
+.here .d
+{
+    animation: moved 3s ease-in-out; 
+    animation-iteration-count: infinite;
+}
+@keyframes moved {
+    from, to { transform: translateY(0px) }
+    50% { transform: translateY(15px) }
+}
+.image img
+{
+    width: 100%;
+    height: 100vh;
+    object-fit:cover;
+    margin-left: auto;
+}
+.deps
+{
+    color:  rgb(145, 119, 68);
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.second
+{
+    position: relative;
+    padding-bottom: 500px;
+}
+.dep1,.dep2,.dep3,.dep4,.dep5
+{
+    width: 400px;
+    height: 380px;
+    background-color: rgb(145, 119, 68);
+    border-radius: 30px;
+    position: absolute;
+    left: 550px;
+    top: 120px;
+    z-index: 10;
+    box-shadow: 0px 10px 50px rgb(22, 22, 22);
+}
+.dep2
+{
+    z-index: 9;
+    left: 190px;
+    top: 110px;
+}
+.dep3
+{
+    z-index: 8;
+    left: 50px;
+    top: 100px;
+}
+.dep4
+{
+    z-index: 9;
+    left: 890px;
+    top: 110px;
+}
+.dep5
+{
+    z-index: 8;
+    left: 1050px;
+    top: 100px;
+}
+.dep1 img,.dep2 img ,.dep3 img ,.dep4 img ,.dep5 img
+{
+    width: 370px;
+    height: 310px;
+    border-radius: 30px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.dep1 p ,.dep2 p ,.dep3 p ,.dep4 p ,.dep5 p
+{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 20px;
+    text-transform: capitalize;
+    padding-left: 100px;
+}
+.dep3 p
+{
+    padding-left: 50px;
+}
+.dep4 p
+{
+    padding-left: 70px;
+}
+.dep5 p
+{
+    padding-left: 40px;
+}
+.dep1:hover,.dep2:hover,.dep3:hover,.dep4:hover,.dep5:hover
+{
+    cursor: pointer;
+    transform: scale(1.1,1.1);
+    transition: .5s;
+}
+.dep2:hover,.dep3:hover,.dep4:hover,.dep5:hover
+{
+    z-index: 10;
+}
+.after
+{
+    display: flex;
+}
+.why h1
+{
+    margin-top: 150px;
+    color:  rgb(145, 119, 68);
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.right img
+{
+    width: 600px;
+    height: 90vh;
+    margin-left: 220px;
+}
+.mid
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.mid img
+{
+    width: 100px;
+    height: 100px;
+}
+.mid pre
+{
+    width: 250px;
+    font-size: 18px;
+    color:rgb(168, 118, 19, 0.909) ;
+}
+.icon1,.icon3
+{
+    margin-left: 50px;
+    margin-top: 120px;
+}
+.icon1 img ,.icon3 img
+{
+    margin-left: 100px;
+}
+.icon2 ,.icon4
+{
+    margin-top: 120px;
+    margin-left: 130px;
+}
+.icon2 img ,.icon4 img
+{
+    margin-left: 130px;
+}
+.sub img
+{
+    width: 100%;
+    height: 70vh;
+}
+
+footer
+{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(168, 118, 19, 0.909);
+    display: flex;
+    margin-top: 50px;
+}
+footer div p
+{
+    margin-top: 20px;
+    font-size: 17px;
+}
+footer div p:hover
+{
+    color: white;
+    cursor: pointer;
+}
+.content ,.social,.legal,.support
+{
+    padding-top: 50px;
+}
+.content
+{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.legal
+{
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.support
+{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.social{
+    margin-top: 20px;
+    margin-left: 120px;
+}
+.social h2
+{
+    font-size: 25px;
+    margin-left: 25px;
+    text-transform: capitalize;
+}
+
+.section1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.section1 img:hover{
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    transition: .5s;
+}
